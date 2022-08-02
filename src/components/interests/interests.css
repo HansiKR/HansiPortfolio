@@ -1,0 +1,75 @@
+.interests__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.interest {
+  background: var(--background-color-lighter);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--primary-color);
+  height: auto;
+  transition: var(--transition);
+}
+
+.interest:hover {
+  background: transparent;
+  border-color: var(--primary-color);
+  cursor: default;
+}
+
+.interest__head {
+  background: var(--primary-color);
+  padding: 2rem;
+  border-radius: 0 0 3rem 3rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.interest__head > h3 {
+    color: var(--background-color);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.interests__list {
+    padding: 2rem;
+
+}
+
+.interests__list > li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.interests__list-icon {
+    color: var(--primary-color);
+    margin-top: 3px;
+}
+
+.interests__list > li > p {
+    font-size: 0.8rem;
+}
+
+/* MEDIA QUERIES */
+
+/* ========= Medium Devices - Tablets ==========  */
+@media screen and (max-width: 1024px) {
+    .interests__container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+
+    .interest{
+        height: auto;
+    }
+  }
+  
+  /* ========= Small Devices - Mobiles ==========  */
+  @media screen and (max-width: 600px) {
+    .interests__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+  }
+  
