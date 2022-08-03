@@ -25,8 +25,8 @@ const Qualifications = () => {
             <article className="qualifications__details">
               <FontAwesomeIcon icon={faCircleCheck} className="qualifications__details-icon"></FontAwesomeIcon>
               <div>
-                <h4>Higher National Diplooma in English </h4>
-                <small className="text-light">SLIATE - Kandy</small>
+                <h4>Higher National Diploma in English </h4>
+                <small className="text-light">Sri Lankan Institute of Advanced Technology - Kandy</small>
                 <h6 className="text-light">2021</h6>
               </div>
             </article>
@@ -79,7 +79,7 @@ const Qualifications = () => {
             <article className="qualifications__details">
               <FontAwesomeIcon icon={faCircleCheck} className="qualifications__details-icon"></FontAwesomeIcon>
               <div>
-                <h4>IT Support Office</h4>
+                <h4>IT Support Officer</h4>
                 <small className="text-light">
                   Kalanie Accountancy Solutions (Pvt) Ltd. - Kandy
                 </small>
