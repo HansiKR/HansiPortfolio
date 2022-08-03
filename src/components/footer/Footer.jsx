@@ -23,13 +23,13 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://facebook.com/HasiSpeaks/">
+        <a href="https://facebook.com/HasiSpeaks/" target="_blank">
           <FontAwesomeIcon icon={faFacebook} className="footer__socials-icon"></FontAwesomeIcon>
         </a>
-        <a href="https://www.instagram.com/itzmehansi_/">
+        <a href="https://www.instagram.com/itzmehansi_/" target="_blank">
           <FontAwesomeIcon icon={faInstagram} className="footer__socials-icon"></FontAwesomeIcon>
         </a>
-        <a href="https://twitter.com/HansiSpeaks">
+        <a href="https://twitter.com/HansiSpeaks" target="_blank">
           <FontAwesomeIcon icon={faTwitter} className="footer__socials-icon"></FontAwesomeIcon>
         </a>
         

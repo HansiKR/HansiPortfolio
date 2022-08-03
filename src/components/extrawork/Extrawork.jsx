@@ -19,25 +19,25 @@ const data = [
     image: EB,
     title: "Taking Leadership",
     description:
-      "To guide others and Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto dolor ut sed fugiat consequatur ab dolorem vitae repellendus quas nulla, possimus explicabo provident accusantium assumenda veniam et labore dicta exercitationem.",
+      "To guide others and create more leaders instead of followers. I strongly believe that as the Secretary of ITSA UOK, Co-Editor of UOK ISACA Student Group as well as the Secretary of LED KLN I was and am able to make a positive impact on those who look up to me.",
   },
   {
     image: Speaker,
     title: "Sharing Knowledge",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto dolor ut sed fugiat consequatur ab dolorem vitae repellendus quas nulla, possimus explicabo provident accusantium assumenda veniam et labore dicta exercitationem.",
+      "To share what I know and help others be better version of themselves. My journey as a guest speaker is fairly new and have been a great exposure to me. I expect to continue this journey and improve myself while also helping others improve themselves.",
   },
   {
     image: Moderator,
     title: "Managing People",
     description:
-      "To guide others and Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto dolor ut sed fugiat consequatur ab dolorem vitae repellendus quas nulla, possimus explicabo provident accusantium assumenda veniam et labore dicta exercitationem.",
+      "To facilitate and guide various types of events including discussons, webinars, orientations, competitions, etc. Over the past couple of year I have played my part as a moderator in 20+ event. This is most definitely an area that I enjoy out of my regular work.",
   },
   {
     image: Achiever,
     title: "Reaching Heights",
     description:
-      "To guide others and Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto dolor ut sed fugiat consequatur ab dolorem vitae repellendus quas nulla, possimus explicabo provident accusantium assumenda veniam et labore dicta exercitationem.",
+      "To challenge myself and stand out amidst a crowd. I do not hesitate to step out of my comfort zone and expose myself to a different aspect life. Parcticipating in competitions such as hackathons and ideathons have always taught me to face both victories and loses with a smile.",
   },
 ];
 

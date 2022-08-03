@@ -6,7 +6,7 @@
 
 .portfolio__item {
     background: var(--background-color-lighter);
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -23,7 +23,7 @@
 } 
 
 .portfolio__item-image{
-    /* transform: scale(0.9); */
+    /* transform: scale(0.6); */
     margin-bottom: 0.3rem;
 }
 
