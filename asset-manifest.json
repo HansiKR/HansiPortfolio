@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HansiPortfolio/static/css/main.7296ca27.css",
-    "main.js": "/HansiPortfolio/static/js/main.ec426bbc.js",
+    "main.js": "/HansiPortfolio/static/js/main.d27e01ca.js",
     "static/media/HansiRadhakrishnanCV.pdf": "/HansiPortfolio/static/media/HansiRadhakrishnanCV.e20f297fba11440d32f0.pdf",
     "static/media/Moderator.svg": "/HansiPortfolio/static/media/Moderator.e40739df1404a67c0fe1a2f5ca5ed56a.svg",
     "static/media/Achiever.svg": "/HansiPortfolio/static/media/Achiever.a99f0a8ba5027884993482faf3440c5f.svg",
@@ -17,10 +17,10 @@
     "static/media/Java.svg": "/HansiPortfolio/static/media/Java.28447b68516afeae409241551de12214.svg",
     "index.html": "/HansiPortfolio/index.html",
     "main.7296ca27.css.map": "/HansiPortfolio/static/css/main.7296ca27.css.map",
-    "main.ec426bbc.js.map": "/HansiPortfolio/static/js/main.ec426bbc.js.map"
+    "main.d27e01ca.js.map": "/HansiPortfolio/static/js/main.d27e01ca.js.map"
   },
   "entrypoints": [
     "static/css/main.7296ca27.css",
-    "static/js/main.ec426bbc.js"
+    "static/js/main.d27e01ca.js"
   ]
 }
