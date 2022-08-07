@@ -45,7 +45,7 @@ const Qualifications = () => {
               <div>
                 <h4>G.C.E.Ordinary Level</h4>
                 <small className="text-light">
-                  St.Anthoy's Girls' College - Kandy
+                  St.Anthony's Girls' College - Kandy
                 </small>
                 <h6 className="text-light">2014 </h6>
               </div>
