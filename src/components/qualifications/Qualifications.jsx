@@ -56,6 +56,16 @@ const Qualifications = () => {
         <div className="qulifications__work">
           <h3>Work Experience</h3>
           <div className="qualifications__content">
+          <article className="qualifications__details">
+              <FontAwesomeIcon icon={faSpinner} className="qualifications__details-icon"></FontAwesomeIcon>
+              <div>
+                <h4>Intern IT Business Analyst</h4>
+                <small className="text-light">
+                  Epic Lanka (Pvt) Ltd. - Battaramulla
+                </small>
+                <h6 className="text-light">Aug 2021 - Present</h6>
+              </div>
+            </article>
             <article className="qualifications__details">
               <FontAwesomeIcon icon={faCircleCheck} className="qualifications__details-icon"></FontAwesomeIcon>
               <div>
