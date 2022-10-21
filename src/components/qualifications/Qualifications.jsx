@@ -17,7 +17,7 @@ const Qualifications = () => {
             <article className="qualifications__details">
               <FontAwesomeIcon icon={faSpinner} className="qualifications__details-icon"></FontAwesomeIcon>
               <div>
-                <h4>Bachelor of Information and Communication Technology</h4>
+                <h4>Bachelor of Information and Communication Technology (Hons.)</h4>
                 <small className="text-light">University of Kelaniya</small>
                 <h6 className="text-light">Present</h6>
               </div>
