@@ -4,7 +4,7 @@
 }
 
 .extrawork__flyer{
-    width: 20rem;
+    width: min(20rem, 100%);
     aspect-ratio: 1/1;
     overflow: hidden;
     margin: 1rem auto 2rem;
@@ -44,7 +44,7 @@
     }
 
     .extrawork__flyer{
-        width: 20rem;
+        width: min(20rem, 100%);
     }
 
 }
@@ -62,6 +62,6 @@
    }
 
    .extrawork__flyer{
-    width: 18rem;
+    width: min(18rem, 100%);
    }
 }

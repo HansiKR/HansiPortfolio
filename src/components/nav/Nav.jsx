@@ -1,26 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './nav.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHome,
-  faUser,
-  faMessage,
-  faLaptopCode,
-  faGraduationCap
-} from "@fortawesome/free-solid-svg-icons"
-import { useState } from 'react'; //react hook
+import { faHome, faUser, faMessage, faLaptopCode, faGraduationCap, faBookOpen } from "@fortawesome/free-solid-svg-icons"
 
+const links = [['#home', faHome, 'Home'], ['#about', faUser, 'About'], ['#qualifications', faGraduationCap, 'Journey'], ['#interests', faLaptopCode, 'Skills'], ['#publications', faBookOpen, 'Publications'], ['#contact', faMessage, 'Contact']];
 const Nav = () => {
-  const[activeNav, setActiveNav] = useState('#')
-  return (
-    <nav>
-      <a href="#" onClick={()=>setActiveNav('#')}className={activeNav === '#' ? 'active' : ''}><FontAwesomeIcon icon={faHome}></FontAwesomeIcon></a>
-      <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FontAwesomeIcon icon={faUser}></FontAwesomeIcon></a>
-      <a href="#qualifications" onClick={()=>setActiveNav('#qualifications')} className={activeNav === '#qualifications' ? 'active' : ''}><FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon></a>
-      <a href="#interests" onClick={()=>setActiveNav('#interests')} className={activeNav === '#interests' ? 'active' : ''}><FontAwesomeIcon icon={faLaptopCode}></FontAwesomeIcon></a>
-      <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><FontAwesomeIcon icon={faMessage}></FontAwesomeIcon></a>
-    </nav>
-  )
+  const [activeNav, setActiveNav] = useState('#home');
+  return <nav aria-label="Main navigation">{links.map(([href, icon, label]) => <a key={href} href={href} aria-label={label} title={label} onClick={() => setActiveNav(href)} className={activeNav === href ? 'active' : ''}><FontAwesomeIcon icon={icon} /></a>)}</nav>
 }
-
 export default Nav

@@ -1,0 +1,8 @@
+.publications__container { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; align-items: stretch; }
+.publication { min-width: 0; display: flex; flex-direction: column; background: var(--background-color-lighter); border: 1px solid transparent; border-radius: 1.5rem; padding: 1.8rem; transition: var(--transition); overflow-wrap: anywhere; }
+.publication:hover { border-color: var(--primary-color); background: transparent; }
+.publication small, .publication p { color: var(--light-color); }
+.publication h3 { font-size: 1rem; margin: 1rem 0; }
+.publication p { font-size: .88rem; }
+.publication__cta { display: flex; justify-content: center; margin-top: auto; padding-top: 1rem; }
+@media screen and (max-width: 600px) { .publications__container { grid-template-columns: 1fr; gap: 1rem; } .publication { padding: 1.4rem; } }

@@ -6,7 +6,7 @@ import Moderator from "../../assets/img/Moderator.svg";
 import Achiever from "../../assets/img/Achiever.svg";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -17,27 +17,33 @@ import "swiper/css/pagination";
 const data = [
   {
     image: EB,
+    title: "Faculty Alumnus Contributor",
+    description:
+      "Share an industry perspective in curriculum revision discussions at the Faculty of Computing and Technology, University of Kelaniya. I have also served as an industry panelist at first-year orientation and interviewed intern candidates at the faculty career fair.",
+  },
+  {
+    image: EB,
     title: "Taking Leadership",
     description:
-      "To guide others and create more leaders instead of followers. I strongly believe that as the Secretary of ITSA UOK, Co-Editor of UOK ISACA Student Group as well as the Secretary of LED KLN I was and am able to make a positive impact on those who look up to me.",
+      "I have held leadership roles as Secretary of ITSA UOK, Co-Editor of the UOK ISACA Student Group, and Secretary of LED KLN. These roles gave me opportunities to support others, encourage new leaders, and contribute to my student communities.",
   },
   {
     image: Speaker,
     title: "Sharing Knowledge",
     description:
-      "To share what I know and help others be better version of themselves. My journey as a guest speaker is fairly new and have been a great exposure to me. I expect to continue this journey and improve myself while also helping others improve themselves.",
+      "As a guest speaker, I share my experience and knowledge with others. Speaking has helped me grow, and I hope to continue learning while supporting other people’s development.",
   },
   {
     image: Moderator,
     title: "Managing People",
     description:
-      "To facilitate and guide various types of events including discussons, webinars, orientations, competitions, etc. Over the past couple of year I have played my part as a moderator in 20+ event. This is most definitely an area that I enjoy out of my regular work.",
+      "I have facilitated and moderated more than 20 events, including discussions, webinars, orientations, and competitions. I enjoy helping events run smoothly and creating an engaging experience for participants.",
   },
   {
     image: Achiever,
     title: "Reaching Heights",
     description:
-      "To challenge myself and stand out amidst a crowd. I do not hesitate to step out of my comfort zone and expose myself to a different aspect life. Parcticipating in competitions such as hackathons and ideathons have always taught me to face both victories and loses with a smile.",
+      "I enjoy stepping outside my comfort zone through hackathons, ideathons, and other competitions. These experiences have taught me to approach both wins and setbacks with resilience and a positive attitude.",
   },
 ];
 

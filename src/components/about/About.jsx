@@ -2,82 +2,25 @@ import React from "react";
 import "./about.css";
 import ME2 from "../../assets/img/ME2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUserGraduate,
-  faAward,
-  faPeopleGroup,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUserGraduate, faAward, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-const About = () => {
-  return (
-    <section id="about">
-      <h5>Who am I?</h5>
-      <h2>About Me</h2>
-
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME2} alt="Hansi's Image" />
-          </div>
+const About = () => (
+  <section id="about">
+    <h5>Who am I?</h5>
+    <h2>About Me</h2>
+    <div className="container about__container">
+      <div className="about__me"><div className="about__me-image"><img src={ME2} alt="Hansi Radhakrishnan" /></div></div>
+      <div className="about__content">
+        <div className="about__cards">
+          <article className="about__card"><FontAwesomeIcon icon={faUserGraduate} className="about__icon" /><h5>Education</h5><small>M.Sc. International Information Systems<br />FAU · Digital Business</small></article>
+          <article className="about__card"><FontAwesomeIcon icon={faAward} className="about__icon" /><h5>Recognition</h5><small>Bank2U: APICTA Gold and NBQSA National Overall Silver (2025)<br />PreveNET: APICTA and NBQSA Gold (2024)</small></article>
+          <article className="about__card"><FontAwesomeIcon icon={faGlobe} className="about__icon" /><h5>Experience</h5><small>4 years in FinTech and banking<br />6 products · 10+ clients · 5 countries</small></article>
         </div>
-
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FontAwesomeIcon
-                icon={faUserGraduate}
-                className="about__icon"
-              ></FontAwesomeIcon>
-              <h5>Education</h5>
-              <small>
-                BICT Honours (UG) <br />
-                HND in English (2021)
-                <br />
-                Diploma in IT (2015)
-              </small>
-            </article>
-
-            <article className="about__card">
-              <FontAwesomeIcon
-                icon={faAward}
-                className="about__icon"
-              ></FontAwesomeIcon>
-              <h5>Skills</h5>
-              <small>
-                HTML / CSS / JS <br /> ReactJS <br /> SQL / PHP{" "}
-              </small>
-            </article>
-
-            <article className="about__card">
-              <FontAwesomeIcon
-                icon={faPeopleGroup}
-                className="about__icon"
-              ></FontAwesomeIcon>
-              <h5>Extra Curricular</h5>
-              <small>
-                Secretary - LED KLN (22/23) <br />
-                Co-Editor - UOK ISG (21/22) <br />
-                Secretary - ITSA UOK (19/20)
-              </small>
-            </article>
-          </div>
-
-          <p>
-            As an undergraduate with multiple areas to focus on, I always manage
-            my time wisely to meet end goals. I have excellent communication
-            skills that enable me to communicate with a wide range of people
-            effectively. I also have excellent team spirit and can-do attitude
-            that would be beneficial for any organization.
-          </p>
-
-          <a href="#contact" className="btn btn-primary">
-            {" "}
-            Reach Me{" "}
-          </a>
-        </div>
+        <p>I’m a former IT Business Analyst and current M.Sc. International Information Systems student at FAU. Over four years, I helped design FinTech and banking solutions across five countries, including AI/ML-enabled identity and document checks. My research interests span FinTech, EdTech, and human-computer interaction. I’m especially interested in responsible use of data and AI in high-stakes decisions: designing solutions that help people while preserving human judgment.</p>
+        <a href="#contact" className="btn btn-primary">Reach Me</a>
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default About;
